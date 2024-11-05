@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: 'Open Sans';
+    }
+    body{
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAQLBdt-6bkpjqwWRcvkL_OlvDLLG8HVGung&s);
+    background-size: 2000px;
+    }
+    nav{
+      max-width: 900px;
+        margin:auto;
+        background-color: #c26706;
+        font-size:20px;
+        margin-top:50px;
+    }
+    .menu-horizontal{
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+    }
+    .menu-horizontal > li > a{
+      display: block;
+      padding: 15px 20px;
+        color: white;
+      text-decoration: none;
+    }
+    .menu-horizontal > li:hover{
+      background-color: red;
+    }
+    .menu-vertical{
+      position: absolute;
+      display: none;
+      list-style: none;
+      width: 200px;
+      background-color: rgba(0, 0, 0, .5);
+    }
+    .menu-horizontal li:hover .menu-vertical{
+      display: block;
+    }
+    .menu-vertical li:hover{
+      background-color: black;
+    }
+    .menu-vertical li a{
+      display: block;
+      color: white;
+      padding: 15px 15px 15px 20px;
+      text-decoration: none;
+    }
+
+    .pato{
+      width: 350px;
+      height:350px;
+      margin-left: 40%;
+      margin-top: 100px;
+      border-radius: 60%;
+    justify-content: space-between;}
+
+    .titulo {
+      text-align: center;
+      color:rgb(255, 255, 255);
+      font-size: xx-large;
+      margin: 5%;
+    }
